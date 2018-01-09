@@ -6,6 +6,7 @@ def line(array)
     array.each.with_index(1) do |person, i|
       current_line << " #{i}. #{person}"
     end
+    
   end
 end
 line(katz_deli)
